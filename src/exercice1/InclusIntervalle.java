@@ -32,7 +32,7 @@ public class InclusIntervalle implements Condition{
 	 */
 	@Override
 	public boolean verif(int i) {
-		return ( i > inf && i <= sup);
+		return ( i >= inf && i < sup);
 	}
 
 	
