@@ -4,7 +4,7 @@
 package moyenneException;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 public class moyenneException {

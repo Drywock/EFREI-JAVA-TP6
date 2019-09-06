@@ -4,7 +4,7 @@
 package exercice3;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 public class UtiliseRacine {
@@ -22,7 +22,7 @@ public class UtiliseRacine {
 		}
 		
 		catch(ArrayIndexOutOfBoundsException e) {
-			System.err.println( "Pas d'argument en entrée, Exception : " + e );
+			System.err.println( "Pas d'argument en entrï¿½e, Exception : " + e );
 			System.exit(1);
 		}
 		

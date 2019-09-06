@@ -4,7 +4,7 @@
 package exercice1;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 
@@ -14,7 +14,7 @@ public class InclusIntervalle implements Condition{
 	private int inf,sup; 
 	
 	public InclusIntervalle(int inf, int sup) 
-			throws ExceptionArgumentIncorrect { // Il faut ajouter cette ligne qui informe que le constructeur peut lancer une excexption afin d'éviter une erreur
+			throws ExceptionArgumentIncorrect { // Il faut ajouter cette ligne qui informe que le constructeur peut lancer une excexption afin d'ï¿½viter une erreur
 		super();
 		
 		if( inf >= sup)
@@ -26,8 +26,8 @@ public class InclusIntervalle implements Condition{
 
 	
 	/**
-	 * Vérifie si le nombre fournis est dans l'intervalle
-	 * @param i nombre à tester
+	 * Vï¿½rifie si le nombre fournis est dans l'intervalle
+	 * @param i nombre ï¿½ tester
 	 * @return true si i est dans l'intervalle, false sinon
 	 */
 	@Override

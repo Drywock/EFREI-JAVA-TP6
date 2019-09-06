@@ -4,7 +4,7 @@
 package exercice1;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 public interface Condition {

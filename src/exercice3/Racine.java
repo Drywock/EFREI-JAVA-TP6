@@ -4,7 +4,7 @@
 package exercice3;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 public class Racine {
@@ -12,16 +12,16 @@ public class Racine {
 	
 	/**
 	 * Construit une instance de classe Racine1
-	 * @param precision valeur de la précision des racines caluler par cette instance
+	 * @param precision valeur de la prï¿½cision des racines caluler par cette instance
 	 */
 	Racine(double precision) {
 		this.precision=precision;
 	}  
 	
 	/**
-	 * Calcul la racine carré d'un nombre
-	 * @param operande valeur d'entréeS
-	 * @return la racine carré d'operande
+	 * Calcul la racine carrï¿½ d'un nombre
+	 * @param operande valeur d'entrï¿½eS
+	 * @return la racine carrï¿½ d'operande
 	 * @throws NegativeOperandeException si operande est negatif
 	 */
 	double racine(double operande)
@@ -44,14 +44,14 @@ public class Racine {
 	
 	/**
 	 * 
-	 * @return la précision de calcul des racines
+	 * @return la prï¿½cision de calcul des racines
 	 */
 	double getPrecision(){
 		return precision;
 	}
 	
 	/**
-	 * Permet de définir la précision avec laquelle est calculée la racine
+	 * Permet de dï¿½finir la prï¿½cision avec laquelle est calculï¿½e la racine
 	 * @param precision
 	 */
 	void setPrecision(double precision) {

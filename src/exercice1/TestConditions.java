@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author Gabriel RIBIER
+ * @author Gabriel RIBIER, Thomas LINTANF
  *
  */
 public class TestConditions {

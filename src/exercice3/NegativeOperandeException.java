@@ -4,7 +4,7 @@
 package exercice3;
 
 /**
- * @author Thomas LINTANF
+ * @author Thomas LINTANF, Gabriel RIBIER
  *
  */
 public class NegativeOperandeException extends Exception {
